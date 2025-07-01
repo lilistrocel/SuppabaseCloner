@@ -1,0 +1,1 @@
+block_data_change, block_data_changeRe, block_history, block_standard, client_details, employee_list, farm_block, farm_details, farm_types, harvest_reports, input_data, input_data2, inventory_planning, inventory_stock,logs, order_list_content, orderlist_re, season_planning, standard_planning, users, vehicle_details

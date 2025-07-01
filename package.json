@@ -1,0 +1,21 @@
+{
+  "name": "supabase-cloner",
+  "version": "1.0.0",
+  "description": "Clone data between Supabase instances",
+  "main": "clone-data-improved.js",
+  "scripts": {
+    "start": "node clone-data-improved.js",
+    "start:legacy": "node clone-data.js",
+    "test": "node test-clone.js",
+    "clone-table": "node clone-single-table.js",
+    "generate-sql": "node get-table-structure.js",
+    "check-tables": "node check-missing-tables.js",
+    "extract-schemas": "node extract-missing-schemas.js",
+    "create-view-tables": "node create-view-tables-accurate.js",
+    "extract-exact-schema": "node extract-postgres-schema.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3",
+    "cross-fetch": "^4.0.0"
+  }
+} 
